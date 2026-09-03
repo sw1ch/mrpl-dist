@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 100" width="430" height="100">
+  <!-- Связка знака и надписи, как в шапке приложения: «Marple» кремовым,
+       « VPN» кораллом. Шрифт — SF Rounded (системный на Apple) или Nunito
+       из папки font. Текст оставлен ТЕКСТОМ, а не кривыми: так его можно
+       перенабрать, а кривые пришлось бы перерисовывать. -->
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D83A5E"/><stop offset=".27" stop-color="#D83A5E"/><stop offset=".27" stop-color="#FF6F5C"/><stop offset=".50" stop-color="#FF6F5C"/><stop offset=".50" stop-color="#FFAB5C"/><stop offset=".73" stop-color="#FFAB5C"/><stop offset=".73" stop-color="#FFE6C2"/><stop offset="1" stop-color="#FFE6C2"/></linearGradient><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+  <g transform="translate(0 0)">
+    <path d="M43 0 79.98 15V50C79.98 74 63.64 90 43 100 22.36 90 6.02 74 6.02 50V15z" fill="url(#b)"/><path d="M43 0 79.98 15V50C79.98 74 63.64 90 43 100 22.36 90 6.02 74 6.02 50V15z" fill="url(#s)"/>
+  </g>
+  <text x="104" y="68" font-family="SF Pro Rounded, Nunito, -apple-system, sans-serif"
+        font-size="54" font-weight="700" fill="#FEEBC9">Marple<tspan fill="#FF6F5C"> VPN</tspan></text>
+</svg>
